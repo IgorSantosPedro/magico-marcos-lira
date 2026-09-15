@@ -34,11 +34,13 @@ Quando o certificado estiver disponível em **Settings > Pages**, marque **Enfor
 
 ## 4. Prévia personalizada em WhatsApp e redes sociais
 
-O `index.html` contém metadados Open Graph e Twitter Card apontando para:
+O `index.html` contém metadados Open Graph e Twitter Card apontando inicialmente para:
 
-- URL: `https://magicomarcos.com/`
-- imagem: `https://magicomarcos.com/assets/social-preview.png`
+- URL: `https://igorsantospedro.github.io/magico-marcos/`
+- imagem: `https://igorsantospedro.github.io/magico-marcos/assets/social-preview.png`
 - título: `Mágico Marcos Lira | Magia, circo e diversão para eventos`
+
+Depois que `magicomarcos.com` estiver ativo, substitua o endereço provisório pelo domínio personalizado em `dist/index.html`, `dist/robots.txt` e `dist/sitemap.xml`.
 
 Aplicativos podem manter a prévia em cache. Depois da publicação, use o Sharing Debugger do Facebook para solicitar nova leitura e, no WhatsApp, teste enviando o link em uma conversa nova.
 

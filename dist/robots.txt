@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://magicomarcos.com/sitemap.xml
-
+Sitemap: https://igorsantospedro.github.io/magico-marcos/sitemap.xml
