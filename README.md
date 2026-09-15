@@ -5,7 +5,7 @@ Site institucional one page do artista Marcos Lira, com apresentação do espet�
 ## Site
 
 - Endereço planejado: [magicomarcos.com](https://magicomarcos.com/)
-- Endereço provisório do GitHub Pages: `https://igorsantospedro.github.io/magico-marcos/`
+- Endereço provisório do GitHub Pages: `https://igorsantospedro.github.io/magico-marcos-lira/`
 - Vídeo: [Show de Mágica com Marcos Lira](https://youtube.com/shorts/bfRapzZV8uE)
 
 ## Estrutura

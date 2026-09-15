@@ -8,7 +8,7 @@ Este projeto publica automaticamente a pasta `dist/` pelo GitHub Actions.
 2. Entre em **Settings > Pages**.
 3. Em **Build and deployment**, selecione **GitHub Actions** como fonte.
 4. Abra a aba **Actions** e acompanhe o fluxo **Publicar no GitHub Pages**.
-5. Após a primeira execução, o endereço provisório será `https://igorsantospedro.github.io/magico-marcos/`.
+5. Após a primeira execução, o endereço provisório será `https://igorsantospedro.github.io/magico-marcos-lira/`.
 
 ## 2. Preparar o domínio personalizado
 
@@ -36,8 +36,8 @@ Quando o certificado estiver disponível em **Settings > Pages**, marque **Enfor
 
 O `index.html` contém metadados Open Graph e Twitter Card apontando inicialmente para:
 
-- URL: `https://igorsantospedro.github.io/magico-marcos/`
-- imagem: `https://igorsantospedro.github.io/magico-marcos/assets/social-preview-marcos.png`
+- URL: `https://igorsantospedro.github.io/magico-marcos-lira/`
+- imagem: `https://igorsantospedro.github.io/magico-marcos-lira/assets/social-preview-marcos.png`
 - título: `Mágico Marcos Lira | Magia, circo e diversão para eventos`
 
 Depois que `magicomarcos.com` estiver ativo, substitua o endereço provisório pelo domínio personalizado em `dist/index.html`, `dist/robots.txt` e `dist/sitemap.xml`.
