@@ -37,7 +37,7 @@ Quando o certificado estiver disponível em **Settings > Pages**, marque **Enfor
 O `index.html` contém metadados Open Graph e Twitter Card apontando inicialmente para:
 
 - URL: `https://igorsantospedro.github.io/magico-marcos/`
-- imagem: `https://igorsantospedro.github.io/magico-marcos/assets/social-preview.png`
+- imagem: `https://igorsantospedro.github.io/magico-marcos/assets/social-preview-marcos.png`
 - título: `Mágico Marcos Lira | Magia, circo e diversão para eventos`
 
 Depois que `magicomarcos.com` estiver ativo, substitua o endereço provisório pelo domínio personalizado em `dist/index.html`, `dist/robots.txt` e `dist/sitemap.xml`.
