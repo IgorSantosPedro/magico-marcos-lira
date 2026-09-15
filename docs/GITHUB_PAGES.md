@@ -12,7 +12,7 @@ Este projeto publica automaticamente a pasta `dist/` pelo GitHub Actions.
 
 ## 2. Preparar o domínio personalizado
 
-O projeto já contém `dist/CNAME` com `magicomarcos.com`. Antes de alterar o DNS, registre o domínio e, por segurança, verifique-o em **GitHub Settings > Pages > Add a domain**.
+O projeto contém `docs/CNAME.example` com `magicomarcos.com`. Ele fica fora da pasta publicada para que o endereço provisório continue funcionando enquanto o domínio ainda não possui DNS. Antes de alterar o DNS, registre o domínio e, por segurança, verifique-o em **GitHub Settings > Pages > Add a domain**.
 
 No painel DNS do provedor do domínio, crie estes registros para o domínio principal:
 
@@ -26,7 +26,7 @@ No painel DNS do provedor do domínio, crie estes registros para o domínio prin
 
 Não use registros DNS curinga (`*`). Remova registros A, AAAA, ALIAS, ANAME ou CNAME conflitantes no mesmo nome.
 
-Depois, em **Settings > Pages > Custom domain**, informe `magicomarcos.com`, salve e aguarde a validação. Alterações DNS podem levar até 24 horas para se propagar.
+Depois de criar os registros DNS, copie `docs/CNAME.example` para `dist/CNAME`, envie a alteração para a branch `main` e, em **Settings > Pages > Custom domain**, informe `magicomarcos.com`. Salve e aguarde a validação. Alterações DNS podem levar até 24 horas para se propagar.
 
 ## 3. Ativar HTTPS
 
@@ -56,4 +56,3 @@ Se o fluxo falhar, abra sua execução e consulte o primeiro passo marcado em ve
 - [Fluxos personalizados do GitHub Pages](https://docs.github.com/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [Domínios personalizados no GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 - [HTTPS no GitHub Pages](https://docs.github.com/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
-

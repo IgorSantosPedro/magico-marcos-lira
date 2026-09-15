@@ -16,7 +16,7 @@ Os arquivos publicados ficam em `dist/`:
 - `styles.css`: identidade visual e responsividade;
 - `script.js`: menu, animações e carrossel;
 - `assets/`: imagens do site e da prévia de compartilhamento;
-- `CNAME`: domínio personalizado usado pelo GitHub Pages.
+- `docs/CNAME.example`: valor do domínio personalizado, pronto para ativação quando o DNS estiver configurado.
 
 ## Desenvolvimento local
 
@@ -39,4 +39,3 @@ As instruções completas para ativação, domínio, DNS, HTTPS e validação es
 - WhatsApp: [(11) 95142-2530](https://wa.me/5511951422530)
 - Instagram: [@marcoslira.art](https://www.instagram.com/marcoslira.art/)
 - E-mail: [magicomarcoslira@gmail.com](mailto:magicomarcoslira@gmail.com)
-
