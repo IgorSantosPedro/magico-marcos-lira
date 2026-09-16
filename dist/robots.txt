@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://igorsantospedro.github.io/magico-marcos-lira/sitemap.xml
+Sitemap: https://marcosliramagico.com.br/sitemap.xml

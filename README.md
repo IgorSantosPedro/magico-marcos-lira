@@ -4,8 +4,8 @@ Site institucional one page do artista Marcos Lira, com apresentação do espet�
 
 ## Site
 
-- Endereço planejado: [magicomarcos.com](https://magicomarcos.com/)
-- Endereço provisório do GitHub Pages: `https://igorsantospedro.github.io/magico-marcos-lira/`
+- Site oficial: [marcosliramagico.com.br](https://marcosliramagico.com.br/)
+- Repositório: [IgorSantosPedro/magico-marcos-lira](https://github.com/IgorSantosPedro/magico-marcos-lira)
 - Vídeo: [Show de Mágica com Marcos Lira](https://youtube.com/shorts/bfRapzZV8uE)
 
 ## Estrutura
@@ -16,7 +16,8 @@ Os arquivos publicados ficam em `dist/`:
 - `styles.css`: identidade visual e responsividade;
 - `script.js`: menu, animações e carrossel;
 - `assets/`: imagens do site e da prévia de compartilhamento;
-- `docs/CNAME.example`: valor do domínio personalizado, pronto para ativação quando o DNS estiver configurado.
+- `dist/CNAME`: domínio personalizado usado pelo GitHub Pages;
+- `docs/CNAME.example`: cópia de referência do valor do domínio.
 
 ## Desenvolvimento local
 
